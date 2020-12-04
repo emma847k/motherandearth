@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
 /* F O N T S */
 
 h1 {
@@ -36,6 +28,11 @@ a {
 
 /* N A V I G A T I O N */
 
+nav {
+    background-color: #FFFFFF;
+    top: 0px;
+}
+
 .navbar h2 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 500;
@@ -60,4 +57,14 @@ a {
 .navbar-light .navbar-toggler {
     color: rgb(255 5 5 / 0%) !important;
     border: none !important;
+}
+
+/* H E R O */
+
+.hero {
+    margin-top: 60px;
+    background-image: url(img/motherandearth_bg.png);
+    height: 88vh;
+    background-size: cover;
+    background-position: center;
 }
