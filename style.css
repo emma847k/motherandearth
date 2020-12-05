@@ -1,9 +1,43 @@
+/* G E N E R E L T */
+
+body {
+    background-color: #FFFEF9;
+}
+
+.opdeler {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 30px;
+}
+
+.opdeler-2 {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 30px 30px 30px 0px;
+}
+
+.btn-white {
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+
+}
+
+
 /* F O N T S */
 
 h1 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 3em;
 }
 
 h2 {
@@ -25,6 +59,8 @@ a {
     font-style: normal;
     font-size: 0.9em;
 }
+
+
 
 /* N A V I G A T I O N */
 
@@ -68,3 +104,11 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+/* I N T R O */
+
+#intro {
+    text-align: center;
+}
+
+/* P R O D U K T E R */
