@@ -2,6 +2,7 @@
 
 body {
     background-color: #FFFEF9;
+    overflow-x: hidden;
 }
 
 .opdeler {
@@ -133,7 +134,7 @@ nav {
 }
 
 
-#mission .row {
+#mission .parallax {
     height: 75vh;
     position: relative;
     overflow: hidden;
@@ -247,4 +248,59 @@ footer a {
     font-weight: 400;
     font-style: normal;
     font-size: 0.7em;
+}
+
+/* M E D I A Q U E R Y */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #mission {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    #mission .parallax {
+        height: 75vh;
+        width: 40vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #nyhedsbrev {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    #nyhedsbrev .row-2 {
+        height: 75vh;
+        width: 40vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #nyhedsbrev .first {
+        position: absolute;
+        width: 190px;
+
+        top: -5%;
+        left: 40px;
+    }
+
+    #nyhedsbrev .second {
+        position: absolute;
+        width: 330px;
+
+        bottom: 20%;
+        left: 110px;
+
+    }
+
+    #nyhedsbrev .third {
+        position: absolute;
+        width: 190px;
+
+        bottom: 10%;
+    }
+
 }
