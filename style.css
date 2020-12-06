@@ -37,7 +37,7 @@ body {
 
 .btn-small img {
     position: relative;
-    top: -10px;
+    top: -15px;
 }
 
 
@@ -122,3 +122,38 @@ nav {
 }
 
 /* P R O D U K T E R */
+
+/* L O V E L Y S H I S T O R I E  */
+
+/* V O R E S   M I S S I O N */
+
+
+#mission .row {
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#mission .first {
+    position: absolute;
+    width: 210px;
+
+    top: -5%;
+    left: 80px;
+}
+
+#mission .second {
+    position: absolute;
+    width: 250px;
+
+    top: 30%;
+    left: 150px;
+
+}
+
+#mission .third {
+    position: absolute;
+    width: 240px;
+
+    top: 50%;
+}
