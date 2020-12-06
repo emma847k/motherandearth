@@ -54,6 +54,7 @@ h2 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 2em;
 }
 
 p {
@@ -174,3 +175,76 @@ nav {
 }
 
 /* S H O P  M O T H E R  &  E A R T H */
+
+/* N Y H E D S B R E V */
+
+#nyhedsbrev {
+    background-color: #E8E3DB;
+}
+
+input {
+    width: 90%;
+    padding: 18px;
+
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+#nyhedsbrev .row-2 {
+    height: 75vh;
+    position: relative;
+    background-color: #E8E3DB;
+    overflow: hidden;
+
+}
+
+#nyhedsbrev .first {
+    position: absolute;
+    width: 190px;
+
+    top: -5%;
+    left: 80px;
+}
+
+#nyhedsbrev .second {
+    position: absolute;
+    width: 330px;
+
+    bottom: 30%;
+    left: 150px;
+
+}
+
+#nyhedsbrev .third {
+    position: absolute;
+    width: 190px;
+
+    bottom: 20%;
+}
+
+/* F O O T E R */
+
+footer {
+
+    background-color: #FFFFFF;
+
+    padding: 10px;
+
+    border-top: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+footer a {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+}
