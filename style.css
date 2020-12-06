@@ -125,7 +125,7 @@ nav {
 
 /* L O V E L Y S H I S T O R I E  */
 
-/* V O R E S   M I S S I O N */
+/* V O R E S  M I S S I O N */
 
 #mission {
     background-color: #E8E3DB;
@@ -160,4 +160,15 @@ nav {
     width: 240px;
 
     top: 60%;
+}
+
+/* V O R E S  P R I N C I P P E R */
+
+#principper {
+    background-color: #E8E3DB;
+}
+
+#principper h2,
+#principper p {
+    text-align: center;
 }
