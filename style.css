@@ -22,12 +22,22 @@ body {
     border: solid 2px #000000;
     background-color: #FFFFFF;
     border-radius: 0px;
+    width: 160px;
 
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 0.9em;
 
+}
+
+.btn-small {
+    width: 160px;
+}
+
+.btn-small img {
+    position: relative;
+    top: -10px;
 }
 
 
