@@ -127,6 +127,10 @@ nav {
 
 /* V O R E S   M I S S I O N */
 
+#mission {
+    background-color: #E8E3DB;
+}
+
 
 #mission .row {
     height: 75vh;
@@ -146,7 +150,7 @@ nav {
     position: absolute;
     width: 250px;
 
-    top: 30%;
+    top: 40%;
     left: 150px;
 
 }
@@ -155,5 +159,5 @@ nav {
     position: absolute;
     width: 240px;
 
-    top: 50%;
+    top: 60%;
 }
