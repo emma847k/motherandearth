@@ -181,6 +181,7 @@ nav {
 
 #nyhedsbrev {
     background-color: #E8E3DB;
+    overflow: hidden !important;
 }
 
 input {
