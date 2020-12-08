@@ -1,0 +1,164 @@
+/* G E N E R E L T */
+
+body {
+    background-color: #FFFEF9;
+    overflow-x: hidden;
+}
+
+.opdeler-2 {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 30px 30px 30px 0px;
+}
+
+.btn-white {
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 160px;
+
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+    transition: 0.5s;
+
+}
+
+.btn-white:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn-small {
+    width: 160px;
+    transition: 0.5s;
+}
+
+.btn-small img {
+    position: relative;
+    top: -15px;
+}
+
+.btn-small:hover {
+    transition: 0.5s;
+    transform: scale(1.08) translateX(20px);
+}
+
+/* F O N T S */
+
+h1 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+}
+
+p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+a {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+
+/* N A V I G A T I O N */
+
+nav {
+    background-color: #FFFFFF;
+    top: 0px;
+}
+
+.navbar h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.navbar-light a {
+    color: #000000 !important;
+}
+
+.navbar-light a:hover {
+    color: #B9AA97 !important;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 5 5 / 0%) !important;
+    border: none !important;
+}
+
+/* L O V E L Y S H I S T O R I E  */
+
+#lovely {
+    margin-top: 150px;
+}
+
+/* N Y H E D S B R E V */
+
+input {
+    width: 90%;
+    padding: 18px;
+
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+/* O M  O S */
+
+#omos {
+    margin-top: 150px;
+}
+
+/* F O O T E R */
+
+footer {
+
+    background-color: #FFFFFF;
+
+    padding: 10px;
+
+    border-top: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+footer a {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+}
