@@ -7,7 +7,7 @@ function sidenVises() {
 
     gsap.from(".intro", {
         y: 200,
-        duration: 1,
+        duration: 1.2,
         //scale: 0.5,
         opacity: 0,
         ease: "power3",

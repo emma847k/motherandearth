@@ -46,10 +46,10 @@ function sidenVises() {
     });
 
     gsap.from(".lovely-text", {
-        y: 400,
-        duration: 1,
+        y: 200,
+        duration: 1.2,
         //scale: 0.5,
-        opacity: 0.5,
+        opacity: 0,
         ease: "power3",
         scrollTrigger: {
             trigger: "#lovely",
@@ -62,10 +62,10 @@ function sidenVises() {
 
 
     gsap.from(".shop-text", {
-        y: 400,
-        //duration: 1,
+        y: 200,
+        duration: 1.2,
         //scale: 0.5,
-        opacity: 0.5,
+        opacity: 0,
         ease: "power3",
         scrollTrigger: {
             trigger: "#shop",

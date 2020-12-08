@@ -128,4 +128,19 @@ function sidenVises() {
         }
     });
 
+    gsap.from(".kontakt", {
+        y: 200,
+        duration: 1.2,
+        //scale: 0.5,
+        opacity: 0,
+        ease: "power3",
+        scrollTrigger: {
+            trigger: "#kontakt",
+            start: "top 90%",
+            end: "center 50%"
+            //scrub: true
+            // markers: true
+        }
+    });
+
 }
