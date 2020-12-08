@@ -1,0 +1,170 @@
+body {
+    background-color: #FFFEF9;
+    overflow-x: hidden;
+}
+
+.btn-white {
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 160px;
+
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+    transition: 0.5s;
+
+}
+
+.btn-white:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+.opdeler {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 30px;
+}
+
+/* F O N T S */
+
+h1 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+}
+
+p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+a {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+
+/* N A V I G A T I O N */
+
+nav {
+    background-color: #FFFFFF;
+    top: 0px;
+}
+
+.navbar h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.navbar-light a {
+    color: #000000 !important;
+}
+
+.navbar-light a:hover {
+    color: #B9AA97 !important;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 5 5 / 0%) !important;
+    border: none !important;
+}
+
+/* I N T R O */
+
+#intro {
+    margin-top: 150px;
+    text-align: center;
+}
+
+/* P R O D U K T E R */
+
+.produkt-1 {
+    background-image: url(img/crewneck_lille.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.produkt-2 {
+    background-image: url(img/tshirt_lille.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.produkt-3 {
+    background-image: url(img/scrunchie.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.produkt-4 {
+    background-image: url(img/crewneck_stor.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.produkt-5 {
+    background-image: url(img/tshirt_stor.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+
+/* F O O T E R */
+
+footer {
+
+    background-color: #FFFFFF;
+
+    padding: 10px;
+
+    border-top: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+footer a {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+}
