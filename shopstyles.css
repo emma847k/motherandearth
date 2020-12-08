@@ -1,0 +1,200 @@
+/* G E N E R E L T */
+
+body {
+    background-color: #FFFEF9;
+    overflow-x: hidden;
+}
+
+.opdeler-2 {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 2px;
+    margin: 30px 30px 30px 0px;
+}
+
+/* F O N T S */
+
+h1 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+}
+
+p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+a {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+
+
+/* N A V I G A T I O N */
+
+nav {
+    background-color: #FFFFFF;
+    top: 0px;
+}
+
+.navbar h2 {
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.navbar-light a {
+    color: #000000 !important;
+}
+
+.navbar-light a:hover {
+    color: #B9AA97 !important;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 5 5 / 0%) !important;
+    border: none !important;
+}
+
+/* S T Y L E S  */
+
+#styles {
+    margin-top: 150px;
+    /*height: 100vh;*/
+}
+
+.btn-drop {
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 100px;
+
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-size: 0.9em;
+
+}
+
+.drop:hover {
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.btn-antal {
+    border: solid 2px #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 100px;
+
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: center;
+
+}
+
+.btn-black {
+    border: solid 2px #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 0px;
+    width: 160px;
+
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-size: 0.9em;
+    transition: 0.5s;
+
+}
+
+.btn-black:hover {
+    border: solid 2px #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 0px;
+    width: 160px;
+    font-weight: 600;
+    transition: 0.5s;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+/* F A R V E R  */
+
+.sort:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.hvid:hover {
+    background-color: #FFFFFF;
+    font-weight: 600;
+}
+
+.rose:hover {
+    background-color: #E4BB9F;
+    font-weight: 600;
+}
+
+.creme:hover {
+    background-color: #FFFEF9;
+    font-weight: 600;
+}
+
+.beige:hover {
+    background-color: #E8E3DB;
+    font-weight: 600;
+}
+
+.natur:hover {
+    background-color: #B9AA97;
+    font-weight: 600;
+}
+
+.sand:hover {
+    background-color: #EDE4D3;
+    font-weight: 600;
+}
+
+/* F O O T E R */
+
+footer {
+
+    background-color: #FFFFFF;
+
+    padding: 10px;
+
+    border-top: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+footer a {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+}
