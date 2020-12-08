@@ -193,6 +193,15 @@ footer {
 }
 
 footer a {
+    color: #000000;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7em;
+}
+
+footer a:hover {
+    color: #505050;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
