@@ -66,14 +66,14 @@ h1 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
 h2 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 p {
@@ -305,6 +305,10 @@ footer a:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 0.7em;
+}
+
+footer img {
+    width: 40px;
 }
 
 /* M E D I A Q U E R Y */

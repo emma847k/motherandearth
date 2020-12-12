@@ -68,11 +68,11 @@ function sidenVises() {
         opacity: 0,
         ease: "power3",
         scrollTrigger: {
-            trigger: "#shop",
+            trigger: ".shop-text",
             start: "top 90%",
-            end: "center 50%",
+            end: "top 40%",
             scrub: true
-            // markers: true
+            //markers: true
         }
     });
 
