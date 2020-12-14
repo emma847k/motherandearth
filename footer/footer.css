@@ -115,3 +115,7 @@ footer a:hover {
     font-style: normal;
     font-size: 0.7em;
 }
+
+footer img {
+    width: 40px;
+}
