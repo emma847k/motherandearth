@@ -66,28 +66,28 @@ h1 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.2em;
+    font-size: 3.3em;
 }
 
 h2 {
     font-family: p22-mackinac-pro, serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2.2em;
+    font-size: 2.3em;
 }
 
 p {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 a {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 
@@ -296,7 +296,7 @@ footer a {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 footer a:hover {
@@ -304,7 +304,7 @@ footer a:hover {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 footer img {
